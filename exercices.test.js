@@ -1,4 +1,4 @@
-const { print_z, sum, simple_maths, MyString, doAdd, createGreeter, generator, identity_equal, myFirstPromise } = require("./sum");
+const { print_z, sum, simple_maths, MyString, doAdd, createGreeter, generator, identity_equal, myFirstPromise } = require("./exercices");
 
 test('Simple Display', () => {
     const consoleSpy = jest.spyOn(console, 'log');
