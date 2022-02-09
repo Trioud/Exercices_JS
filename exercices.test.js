@@ -8,7 +8,7 @@ test('Simple Display', () => {
 
 // SPY ON MATH
 test('Simple addition', () => {
-    expect(sum(10.2, 20.2)).toBe(30);
+    expect(sum(10.2, 20.2)).toBe(30.4);
 });
 
 test('Simple addition with operator', () => {
